@@ -1,0 +1,42 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+    /*common css ends*/
+}
+.wish{
+    height: 900px;
+    width:100%;
+    background: #195584;
+}
+.wish .container{
+    height: 900px;
+    width:1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+.wish .container .wishsay{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.wish .container .wishsay h3{
+    padding-top: 30px;
+}
