@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>portfolio</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+
+            <img src="photos/bg.jpg" alt="" id="bg">
+            <img src="photos/moon.png" alt="" id="moon">
+             <img src="photos/mountain.png" alt="" id="mountain">
+            <img src="photos/road.png" alt="" id="road">
+             <p class="text">Happy Birthday Hira</p>
+            <div>
+            
+            </div>
+        </section>
+        <script type="text/javascript">
+        let bg=document.getElementById("bg");
+        let moon=document.getElementById("moon");
+        let mountain=document.getElementById("mountain");
+        let road=document.getElementById("road");
+        let text=document.getElementById("text");
+            window.addEventListener('scroll', function(){
+                var value =window.scrollY;
+                
+                bg.style.top = -value +0.5 + 'px';
+                moon.style.left = -value +0.5 + 'px';
+                mountain.style.top = -value +0.15 + 'px';
+                road.style.top = -value +0.15 + 'px';
+                text.style.top = -value + 1 + 'px';
+            })
+        </script>
+    </body>
+</html>
